@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>ICSharpCode.TextEditor</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.ASPX.xshd" LogicalName="ICSharpCode.TextEditor.Resources.ASPX.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.BAT-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.BAT-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.CPP-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.CPP-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.Coco-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.Coco-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.CSharp-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.CSharp-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.HTML-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.HTML-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.Java-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.Java-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.JavaScript-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.JavaScript-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.PHP-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.PHP-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.Tex-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.Tex-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.VBNET-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.VBNET-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.XML-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.XML-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.Boo.xshd" LogicalName="ICSharpCode.TextEditor.Resources.Boo.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.Patch-Mode.xshd" LogicalName="ICSharpCode.TextEditor.Resources.Patch-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.TextEditorControl.bmp" LogicalName="ICSharpCode.TextEditor.Resources.TextEditorControl.bmp" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.Mode.xsd" LogicalName="ICSharpCode.TextEditor.Resources.Mode.xsd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.RightArrow.cur" LogicalName="ICSharpCode.TextEditor.Resources.RightArrow.cur" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.Resources.SyntaxModes.xml" LogicalName="ICSharpCode.TextEditor.Resources.SyntaxModes.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>..\..\..\..\Windows\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+</Project>
