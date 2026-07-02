@@ -27,8 +27,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3F5A6705A6B31EBC4C5DA3FC2A052289"
-        "OwnerKey" = "8:_692D7E391D074D36AD2530720FB8D6C4"
+        "MsmKey" = "8:_36EDEBA28A001D2927AB4AEA48128052"
+        "OwnerKey" = "8:_7CBDA023CD2F435BB8D4D5586B86D83B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_36EDEBA28A001D2927AB4AEA48128052"
+        "OwnerKey" = "8:_CBF51C0C38434D629FC3271C5390E247"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -58,12 +64,6 @@
         "Entry"
         {
         "MsmKey" = "8:_805E0317B9E0B1539EEBB800C533393B"
-        "OwnerKey" = "8:_0FFDD9474C2B804E2E2B2C7C6360577B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_805E0317B9E0B1539EEBB800C533393B"
         "OwnerKey" = "8:_7CBDA023CD2F435BB8D4D5586B86D83B"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -75,14 +75,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_BF0DDD11259532587F856D651F450ECC"
-        "OwnerKey" = "8:_7CBDA023CD2F435BB8D4D5586B86D83B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_BF0DDD11259532587F856D651F450ECC"
-        "OwnerKey" = "8:_CBF51C0C38434D629FC3271C5390E247"
+        "MsmKey" = "8:_805E0317B9E0B1539EEBB800C533393B"
+        "OwnerKey" = "8:_0FFDD9474C2B804E2E2B2C7C6360577B"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -112,18 +106,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_CBF51C0C38434D629FC3271C5390E247"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_BF0DDD11259532587F856D651F450ECC"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_692D7E391D074D36AD2530720FB8D6C4"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -143,6 +125,18 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_0FFDD9474C2B804E2E2B2C7C6360577B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_CBF51C0C38434D629FC3271C5390E247"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_36EDEBA28A001D2927AB4AEA48128052"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -270,7 +264,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.5"
+                "FrameworkVersion" = "8:v4.5  "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=395269"
                 }
@@ -329,12 +323,23 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3F5A6705A6B31EBC4C5DA3FC2A052289"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_36EDEBA28A001D2927AB4AEA48128052"
             {
-            "SourcePath" = "8:NoteHighlightAddin.tlb"
-            "TargetName" = "8:NoteHighlightAddin.tlb"
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_36EDEBA28A001D2927AB4AEA48128052"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
-            "Folder" = "8:_76DE0C3E4C3C41398EBF2960C9F81C36"
+            "Folder" = "8:_39453C680207418990A5DB77816F0EE9"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -344,8 +349,8 @@
             "Permanent" = "11:FALSE"
             "SharedLegacy" = "11:FALSE"
             "PackageAs" = "3:1"
-            "Register" = "3:2"
-            "Exclude" = "11:FALSE"
+            "Register" = "3:1"
+            "Exclude" = "11:TRUE"
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
@@ -431,37 +436,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_BF0DDD11259532587F856D651F450ECC"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_BF0DDD11259532587F856D651F450ECC"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_39453C680207418990A5DB77816F0EE9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:TRUE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E4014126696E456F7FC66801CBFEEE19"
             {
             "AssemblyRegister" = "3:1"
@@ -498,7 +472,7 @@
             "SourcePath" = "8:..\\NoteHighlightAddin\\ribbon.xml"
             "TargetName" = "8:ribbon.xml"
             "Tag" = "8:"
-            "Folder" = "8:_76DE0C3E4C3C41398EBF2960C9F81C36"
+            "Folder" = "8:_56A856868B2C4F378A842A20EE777968"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -519,6 +493,28 @@
         }
         "Folder"
         {
+            "{1525181F-901A-416C-8A58-119130FE478E}:_3402F46750B3437EBBCC489CEC38A8B5"
+            {
+            "Name" = "8:#1915"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:AppDataFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_56A856868B2C4F378A842A20EE777968"
+                    {
+                    "Name" = "8:NoteHighlight2016"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_16FEF17C35004C16B8DE67FFE89ED714"
+                        "Folders"
+                        {
+                        }
+                    }
+                }
+            }
             "{C7E34266-2C30-44B9-A9A3-4E394ABD6E18}:_39453C680207418990A5DB77816F0EE9"
             {
             "Name" = "8:#1927"
@@ -646,15 +642,15 @@
         {
         "Name" = "8:NoteHighlightAddin"
         "ProductName" = "8:NoteHighlight2016"
-        "ProductCode" = "8:{A9AFCF4D-FAD1-4F86-AE1D-DFB7BD178E08}"
-        "PackageCode" = "8:{C9A77563-DA85-4922-9C48-31CDAE59C61F}"
+        "ProductCode" = "8:{3535E37D-1067-43CA-B92F-9949F37CF89A}"
+        "PackageCode" = "8:{CE9A7EB7-D4A9-4919-BF9C-33366F2D5974}"
         "UpgradeCode" = "8:{0025873C-20C5-48D6-A93A-FBD3891A9233}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
-        "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:3.7"
+        "InstallAllUsers" = "11:FALSE"
+        "ProductVersion" = "8:3.9"
         "Manufacturer" = "8:CodingRoad"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
