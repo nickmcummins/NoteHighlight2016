@@ -70,7 +70,7 @@ namespace NoteHighlightAddin
             try
             {
 
-                var workingDirectory = Path.Combine(ProcessHelper.GetDirectoryFromPath(Assembly.GetCallingAssembly().Location), "ribbon.xml");
+                var workingDirectory = Path.Combine(Environment.GetEnvironmentVariable("APPDATA").ToString(), "NoteHighlight2016\\ribbon.xml");
 
                 string file = File.ReadAllText(workingDirectory);
 
@@ -449,6 +449,11 @@ namespace NoteHighlightAddin
                         initTabCount = line.Ancestors().Elements(ns + "T").Count();
                     }
                     tabCount = line.Ancestors().Elements(ns + "T").Count() - initTabCount;
+
+                    if (tabCount < 0)
+                    {
+                        tabCount = 0;
+                    }
 
 
                     sb.AppendLine(new String('\t', tabCount) + HttpUtility.HtmlDecode(htmlDocument.DocumentNode.InnerText));
